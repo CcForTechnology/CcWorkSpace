@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+    <link rel="stylesheet" type="text/css" href="../css/mis.css">
+</head>
+<body>
+
+<div class="main">
+    <h1>详情</h1>
+    <table id="stu">
+        <input type="hidden" id="id"/>
+        <tr>
+
+            <td>姓名</td>
+            <td>
+                <input type="text" id="name"/>
+            </td>
+            </tr>
+        <tr>
+            <td>年龄</td>
+            <td>
+                <input type="text" id="age"/>
+            </td>
+        </tr>
+        <tr>
+            <td>分数</td>
+            <td>
+                <input type="text" id="score"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" onclick="save()" value="保存"/>
+                <input type="button" onclick="history.go(-1)" value="返回"/>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/tool.js"></script>
+<script src="../js/mis.js"></script>
+<script>
+    $(function () {
+        var id=UrlParm.parm("id");
+        if(typeof(id) != "undefined"){
+            update(id);
+        }
+    })
+</script>
+</body>
+</html>

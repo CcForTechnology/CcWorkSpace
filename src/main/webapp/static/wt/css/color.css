@@ -1,0 +1,117 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.color-primary,
+.text-primary,
+.list > li > a:hover,
+.list > li:before,
+.link-tooltip-1,
+.blockquote-1:before,
+.search-close:hover,
+.forms__label-check-2:after,
+.ui-subtitle-block,
+.b-goods__price,
+.b-blockquote-5:before {color: #f2be35;}
+
+
+.bg-primary,
+.btn-effect:after,
+.dropcap_primary:first-letter,
+.tooltip-1 .tooltip-inner,
+.btn-primary,
+.forms__label-check-1:after,
+.forms__label-radio-2:before,
+.accordion-1 .panel-default > .panel-heading,
+.forms__label-radio-3:after,
+.b-pricing.active,
+.forms__label-radio-1:after,
+.list-mark-6 li:before,
+.btn-default:focus,
+.btn-default.focus {background-color: #f2be35;}
+
+
+.progress_border_primary,
+.forms__label-radio-2:before,
+.dropcap_secondary:first-letter,
+.b-blockquote-2,
+.forms__label-radio-1:after {border-color: #f2be35;}
+
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #f2be35;}
+
+.tooltip-1.right .tooltip-arrow {border-right-color: #f2be35;}
+
+.tooltip-1.left .tooltip-arrow,
+.border-left_primary:before,
+.b-blockquote-1,
+.accordion-2 .btn-collapse .icon:before {border-left-color: #f2be35;}
+
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table_primary > thead > tr > th,
+.collapse.in,
+.table > thead > tr > th,
+.accordion-2 .btn-collapse .icon:before {border-bottom-color: #f2be35;}
+
+
+
+
+.color-secondary,
+.link-tooltip-2,
+.blockquote-2:before,
+.dropcap_secondary:first-letter,
+.btn-type-1 {color: #1c1f23;}
+
+.bg-secondary,
+.tooltip-2 .tooltip-inner,
+.btn-secondary,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > li > a:hover,
+.pagination_secondary > li > a:focus {background-color: #1c1f23;}
+
+.progress_border_secondary,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > li > a:hover,
+.pagination_secondary > li > a:focus {border-color: #1c1f23;}
+
+.tooltip-2.top .tooltip-arrow,
+.tooltip-2.top-left .tooltip-arrow,
+.tooltip-2.top-right .tooltip-arrow {border-top-color: #1c1f23;}
+
+.tooltip-2.right .tooltip-arrow {border-right-color: #1c1f23;}
+
+.tooltip-2.left .tooltip-arrow,
+.border-left_secondary:before {border-left-color: #1c1f23;}
+
+.tooltip-2.bottom .tooltip-arrow,
+.tooltip-2.bottom-left .tooltip-arrow,
+.tooltip-2.bottom-right .tooltip-arrow,
+.table_secondary > thead > tr > th {border-bottom-color: #1c1f23;}
+
+html .btn-link:hover,html  .btn-link:focus {
+    color: #f2be35;
+}
+
+
+html .b-rating-list__star {
+    color: #f2be35;
+}
+
+html .section-title-page .icon:hover {
+    background-color: #f2be35;
+    border-color:#f2be35;
+}
+
+html body .woocommerce input[type=submit]:hover , .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+     background-color: #f2be35;
+}

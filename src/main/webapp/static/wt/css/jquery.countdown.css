@@ -1,0 +1,52 @@
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+  color: #111;
+}
+.countdown-rtl {
+  direction: rtl;
+}
+.countdown-holding span {
+  color: #888;
+}
+.countdown-row {
+  clear: both;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+.countdown-section {
+  display: block;
+  float: left;
+  text-align: center;
+  position: relative;
+  width: 25%;
+}
+.countdown-section:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: black;
+}
+.countdown-section:last-child:after {
+  content: none;
+}
+.countdown-amount {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+.countdown-period {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+.countdown-descr {
+  display: block;
+  width: 100%;
+}
